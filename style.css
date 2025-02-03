@@ -1,4 +1,54 @@
-.{
-    display: flex;
+/* padding box styling */
+.padding {
+  display: flex;
+  border: 2px solid black;
+  padding: 20px;
+  width: 400px;
+  height: 400px;
+  flex-direction: column;
+  margin: 30px;
+}
 
+.box1 {
+  background-color: lightblue;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+/* margin box styling */
+
+.margin {
+  display: flex;
+  border: 2px solid black;
+  margin: 30px;
+  width: 400px;
+  height: 400px;
+}
+
+.box2 {
+  background-color: lightgreen;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px;
+}
+
+/* default div in boxes styling*/
+.default {
+  border: 2px solid black;
+  width: 400px;
+  height: 400px;
+  margin: 30px;
+}
+
+.box3 {
+  display: flex;
+  background-color: lightgray;
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
 }
