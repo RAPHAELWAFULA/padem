@@ -12,10 +12,10 @@
 .padding {
   display: flex;
   border: 2px solid black;
-  padding: 20px;
+  padding: 100px;
   width: 400px;
   height: 400px;
-  flex-direction: column;
+  flex-direction: row;
   margin: 30px;
 }
 
@@ -33,7 +33,6 @@
 .margin {
   display: flex;
   border: 2px solid black;
-  margin: 30px;
   width: 400px;
   height: 400px;
 }
@@ -44,7 +43,7 @@
   justify-content: center;
   align-items: center;
   display: flex;
-  margin: 20px;
+  margin: 100px;
   border: 1px solid black;
 }
 
