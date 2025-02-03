@@ -1,3 +1,13 @@
+/* main container */
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  margin-top: 50px;
+}
+
 /* padding box styling */
 .padding {
   display: flex;
@@ -15,6 +25,7 @@
   justify-content: center;
   align-items: center;
   display: flex;
+  border: 1px solid black;
 }
 
 /* margin box styling */
@@ -34,6 +45,7 @@
   align-items: center;
   display: flex;
   margin: 20px;
+  border: 1px solid black;
 }
 
 /* default div in boxes styling*/
@@ -47,8 +59,9 @@
 .box3 {
   display: flex;
   background-color: lightgray;
-  width: 50%;
-  height: 50%;
+  width: 70%;
+  height: 70%;
   justify-content: center;
   align-items: center;
+  border: 1px solid black;
 }
