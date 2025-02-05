@@ -4,15 +4,15 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid black;
-  margin-top: 50px;
+  border: 3px solid black;
+  margin: 30px;
 }
 
 /* padding box styling */
 .padding {
   display: flex;
-  border: 2px solid black;
-  padding: 100px;
+  border: 3px solid lightblue;
+  padding: 30px;
   width: 400px;
   height: 400px;
   flex-direction: row;
@@ -28,13 +28,62 @@
   border: 1px solid black;
 }
 
+.pimage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.pimage1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.pimage1 img {
+  transform: rotate(-90deg);
+  margin-left: 10px;
+  align-items: center;
+}
+.pimage img {
+  transform: rotate(90deg);
+  margin-left: 10px;
+  align-items: center;
+}
+
 /* margin box styling */
 
 .margin {
   display: flex;
-  border: 2px solid black;
+  border: 3px solid lightgreen;
   width: 400px;
   height: 400px;
+  margin: 30px;
+}
+.mimage1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.mimage1 img {
+  transform: rotate(90deg);
+  align-items: center;
+  padding-left: 20px;
+}
+.mimage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.mimage img {
+  transform: rotate(-90deg);
+  align-items: center;
 }
 
 .box2 {
@@ -43,16 +92,34 @@
   justify-content: center;
   align-items: center;
   display: flex;
-  margin: 100px;
+  width: 50%;
+  height: 70%;
+  margin: 50px;
   border: 1px solid black;
 }
 
 /* default div in boxes styling*/
 .default {
-  border: 2px solid black;
+  display: flex;
+  border: 3px solid lightgrey;
   width: 400px;
   height: 400px;
   margin: 30px;
+  flex-direction: row;
+  position: relative;
+}
+.dimage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 210px;
+  right: 0px;
+  bottom: 60px;
+}
+
+.dimage img {
+  transform: rotate(135deg);
 }
 
 .box3 {
